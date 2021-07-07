@@ -46,8 +46,7 @@
 	margin-bottom: 0px;
 	background-image: url('https://imsundberg.github.io/files/jumbo.jpg');
 	background-size: cover;
-	background-position: center;
-	width: 100%;
+	background-position: 0 50%;
 }
 
 .jumbotron .a {
