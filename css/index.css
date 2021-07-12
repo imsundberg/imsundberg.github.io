@@ -56,7 +56,6 @@
 dl {
 	width: 100%;
 	overflow: hidden;
-	background: #ff0;
 	padding: 0;
 	margin: 0
 }
@@ -64,7 +63,6 @@ dl {
 dt {
 	float: left;
 	width: 15%;
-	background: #cc0;
 	padding: 0;
 	margin: 0
 }
@@ -72,7 +70,6 @@ dt {
 dd {
 	float: left;
 	width: 85%;
-	background: #dd0;
 	padding: 0;
 	margin: 0
 }
