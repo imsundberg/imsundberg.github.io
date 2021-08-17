@@ -53,6 +53,6 @@
 	color: white;
 }
 
-.hanging-indent .li {
+.ind {
 	text-indent: -85px; padding: 0px 0px 0px 85px
 }
