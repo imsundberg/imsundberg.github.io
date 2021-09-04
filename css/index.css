@@ -68,7 +68,7 @@ th{
 
 tr {
 	font-weight: normal;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	border-collapse: collapse;
 }
