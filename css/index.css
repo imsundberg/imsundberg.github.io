@@ -65,3 +65,10 @@ a.dropdown-item {
 th{
     font-weight: normal;
 }
+
+tr {
+	font-weight: normal;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+}
