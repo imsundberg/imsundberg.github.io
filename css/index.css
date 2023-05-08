@@ -16,6 +16,10 @@
 
 #quote {
 	font-style: italic;
+	&:before,
+	&:after {
+		content: '"';
+	}
 }
 
 #space {
