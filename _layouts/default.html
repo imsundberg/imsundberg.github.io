@@ -7,11 +7,34 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N7518MY9C3"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-	  gtag('config', 'G-N7518MY9C3');
+		  gtag('config', 'G-N7518MY9C3');
+
+		quotes = [        
+		  'There is no monument dedicated to the memory of a committee.', 
+		  'Wanting to be someone you\'re not is a waste of the person you are.',
+		  'If you can find a path with no obstacles, it probably doesn\'t lead anywhere.',
+		  'The great thing about a computer notebook is that no matter how much you stuff into it, it doesn\'t get bigger or heavier.',
+		  'Mistakes are the portals of discovery.',
+		  'Death is a friend of ours; and he that is not ready to entertain him is not at home.',
+		  'Don\'t let yourself forget what it\'s like to be sixteen.'
+		]
+
+		# Counts total images
+		totalQuotes = quotes.length
+
+		# Get Quote
+		getQuote = ->
+		  # Gets random image from array
+		  activeQuotes = quotes[Math.floor((Math.random() * totalQuotes))]
+
+		  # Changes background of div
+		  $('div').text(activeQuotes)
+
+		getQuote()
 	</script>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
