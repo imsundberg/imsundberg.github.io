@@ -65,7 +65,7 @@
 
 .jumbotron {
 	margin-bottom: 0px;
-	background-image: url("{{ site.baseurl }}/files/jumbo8.PNG");
+	background-image: url("isaac-craig.github.io/files/jumbo8.PNG");
 	background-size: cover;
 	background-position: 0 50%;
 }
